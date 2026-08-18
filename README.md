@@ -1,10 +1,10 @@
-# Daran plugins
+# Agent plugins
 
-Official [Daran](https://github.com/zerolith-inc/daran) Agent Plugin marketplace.
+Official [Zerolith](https://github.com/zerolith-inc) Agent Plugin marketplace. Shared across Zerolith products (starting with [Daran](https://github.com/zerolith-inc/daran)).
 
-Layout is Codex-compatible. Daran reads `.agents/plugins/marketplace.json` and the plugin trees it lists. Remote MCP servers must declare a real `url` in `.mcp.json` (or inline `mcpServers` on `plugin.json`). ChatGPT `.app.json` ids are not used.
+Layout is Codex-compatible. Products read `.agents/plugins/marketplace.json` and the plugin trees it lists. Remote MCP servers must declare a real `url` in `.mcp.json` (or inline `mcpServers` on `plugin.json`). ChatGPT `.app.json` ids are not used.
 
-The catalog starts empty. Add a plugin with a PR here, then refresh Official in Daran Settings.
+The catalog starts empty. Add a plugin with a PR here, then refresh Official in the product Settings.
 
 ## Add a plugin
 
@@ -51,8 +51,8 @@ plugins/<name>/skills/   # optional
 }
 ```
 
-Do not add GitHub or Slack. Those stay native Daran installations.
+Do not add GitHub or Slack. Those stay native product installations.
 
 ## License
 
-Files in this repository are published for Daran to fetch. Vendor MCP endpoints remain owned by those vendors.
+Files in this repository are published for Zerolith products to fetch. Vendor MCP endpoints remain owned by those vendors.
